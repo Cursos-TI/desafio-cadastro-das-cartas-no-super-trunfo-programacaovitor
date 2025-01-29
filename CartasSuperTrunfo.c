@@ -24,7 +24,7 @@ int main() {
     float PIB; //PIB da cidade
     float Area_em_KM2; //área em KM² da cidade
     char Nome_da_Cidade1[50]; //Nome da cidade em até 50 caracteres
-    char Codigo_da_Carta2 [3] = "A01"; //Codigo da Carta = A01
+    char Codigo_da_Carta2 [3]; //Codigo da Carta = A01
     char Estado3 [] = "A"; //Estado = A
 
 
@@ -34,58 +34,19 @@ int main() {
 
     printf("Entre com o Número de Pontos Turisticos: \n");
     scanf(" %d", &pontos_turisticos2);
-    printf("Pontos Turisticos: %d\n", pontos_turisticos2);
+    printf("Pontos Turisticos:%d\n", pontos_turisticos2);
 
     printf("Entre com o PIB: \n");
     scanf("%f", &PIB);
     printf("PIB: %f\n", PIB);
 
     printf("Entre com a área em KM²: \n");
-    scanf("%e", &Area_em_KM2);
-    printf("Área em KM²: %e\n", &Area_em_KM2);
+    scanf(" %f", &Area_em_KM2);
+    printf("Área em KM²: %f\n", Area_em_KM2);
     
-    printf("Entre com o nome da Cidade: ");
+    printf("Entre com o nome da Cidade (Lembrando que se houver cidades que tenham a necessidade de colocar espaço, separar por '_', ex: Juiz_de_Fora\n");
     scanf("%s", &Nome_da_Cidade1);
     printf("Cidade: %s\n", &Nome_da_Cidade1);
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
