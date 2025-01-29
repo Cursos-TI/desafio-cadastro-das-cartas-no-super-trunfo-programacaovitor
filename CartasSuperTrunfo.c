@@ -24,7 +24,7 @@ int main() {
     float PIB; //PIB da cidade
     float Area_em_KM2; //área em KM² da cidade
     char Nome_da_Cidade1[50]; //Nome da cidade em até 50 caracteres
-    char Codigo_da_Carta2 [3]; //Codigo da Carta = A01
+    char Codigo_da_Carta2 [3];
     char Estado3 [] = "A"; //Estado = A
 
 
